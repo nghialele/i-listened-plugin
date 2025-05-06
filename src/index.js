@@ -9,7 +9,7 @@ const pluginName = "Spotify plugin: "
 /* function to fetch data from logspot */
 async function loadSpotifyData() {
 
-  const appURL = 'https://spotify.logspot.top';
+  const appURL = 'https://logspot.nale.io';
   const userID = logseq.settings["LogSpotToken"];
   const endpoint = appURL + '/getsongs/';
 

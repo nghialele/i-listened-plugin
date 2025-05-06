@@ -5,7 +5,7 @@ export const settingUI = () => {
             key: "LogSpotToken",
             type: "string",
             title: "Your LogSpot Token",
-            description: "To link with Spotify, visit https://logspot.top/  Once you authenticate with Spotify, the site will generate a token. Enter it below.",
+            description: "To link with Spotify, visit https://logspot.nale.io/  Once you authenticate with Spotify, the site will generate a token. Enter it below.",
             default: ""
         },
         {
@@ -13,7 +13,7 @@ export const settingUI = () => {
             type: "string",
             title: "Text to insert before Spotify song list",
             description: "This text will be inserted before the list of songs. You can use Markdown formatting here.",
-            default: "🎺 Today on [[spotify]]:"
+            default: "🎶 Today on [[spotify]]:"
         },
         {
             key: "LogSpotLinkArtist",
